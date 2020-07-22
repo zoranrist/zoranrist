@@ -28,30 +28,29 @@
       <a href="/">Go to index page</a>
     </header>
     <main>
-      <form>
-        <label>Name:</label><br />
-        <input type="text" />
+      <form id="first-form">
+        <label for="name">firstname</label>
+        <input type="text" id="name" name="firstname" />
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+        <label for="vehicle1"> Zoki</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+        <label for="vehicle2"> I have a car</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+        <label for="vehicle3"> I have a boat</label><br />
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">zenska</label><br />
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label>
+        <input
+          type="hidden"
+          name="hidden_field"
+          value="value of hidden field"
+        />
+        <input type="submit" value="Submit" />
       </form>
-      <form>
-        <label>Prezime:</label>
-        <input type="text" />
-      </form>
-      <form>
-        <label>vnesete e-mail adresa:</label>
-        <input type="text" />
-      </form>
-      <form>
-        <label>vnesete godini:</label>
-        <input type="text" />
-      </form>
-      <form>
-        <label>Vnesete grad:</label>
-        <input type="text />"
-      </form>
-      <form>
-        <label for="name">Vnesete ulica spored lichna karta:</label>
-        <input type="text" id="name" name="first_name" /><br />
-      </form>
+      <pre id="preview"></pre>
     </main>
     <footer></footer>
 
