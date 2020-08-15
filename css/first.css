@@ -7,3 +7,18 @@ header {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
 }
+
+.first {
+  color: blue;
+}
+
+/* Komentar */
+#firstID {
+  color: yellow;
+}
+
+/* #secondID {
+  color: pink;
+} */
+
+/* Ctrl ? */
