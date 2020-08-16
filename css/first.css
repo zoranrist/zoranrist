@@ -8,6 +8,39 @@ h1 {
   text-align: center;
 }
 
+h1 .inside {
+  color: brown;
+}
+
+h1.inside {
+  color: aqua;
+}
+
+h1 .inside .double-inside {
+  color: grey;
+}
+
+/* a:hover {
+  font-weight: bold;
+} */
+
+a:active {
+  font-weight: bold;
+}
+
+input:required {
+  border: 2px solid;
+}
+
+/* h1.inside.double-inside {
+  color: aqua;
+} */
+
+#main a {
+  font-weight: bold;
+  color: deeppink;
+}
+
 .second {
   color: red;
 }
