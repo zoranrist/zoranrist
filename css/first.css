@@ -6,11 +6,13 @@ h1 {
   font-style: italic;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
-  width: 900px;
+  width: 900px center;
   padding: 20px;
   border: 5px solid black;
-  margin: auto;
+  margin: 10px;
 }
+
+/* block-level i inline element */
 
 h1 .inside {
   color: brown;
