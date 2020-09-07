@@ -7,10 +7,29 @@ hello = "Hello World 2020";
 
 15 + 15; // 30
 
+2 * (15 + 15); // console.log() -->60
+
+// Concation (spojuvanje) operation on strings
+
 "Hello" + "World"; // "Hello World"
+
+"Hello" + 5; // "Hello 5"
 
 let bolleanVariable = true;
 let bolleanVariableF = false;
+
+// AND i OR - logichki operatori
+
+// ! - operator za neekvivalentnost
+
+// if (hello == "Hello" && wolrd == "World") {
+if (hello !== "Hello" || wolrd === "Underworld") {
+  console.log("Hello World");
+} else {
+  console.log("Goodbye World");
+}
+
+// console.log(typeof number); --> "number";
 
 result = 0;
 
