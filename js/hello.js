@@ -1,6 +1,6 @@
 // Variable declaration
 
-let hello;
+let hello, goodbay;
 
 hello = "Hello World";
 hello = "Hello World 2020";
@@ -69,3 +69,24 @@ h1_hello.textContent = hello;
 
 hello = null;
 let number = 20;
+
+if (condition1) {
+  // code block
+} else if (condition2) {
+  // code block
+} else if (condition3) {
+  // code block
+} else {
+  // code block
+}
+
+switch (expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+  // code block
+}
