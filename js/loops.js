@@ -33,6 +33,13 @@ for (let n in person.address) {
   console.log(n + "is" + person.address[n]);
 }
 
+let niza = ["a", "b", "c"];
+
+// n e lokalna varijabla
+for (let n of niza) {
+  console.log("Clen na nizata: " + n);
+}
+
 /* Write a for loop that will fill an array with anonimous functions and than another loop
 that will execute those functions. In the first loop use the iterating value inside the anonimous functions.
 */
